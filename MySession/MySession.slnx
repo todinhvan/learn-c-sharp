@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="MySession.Custom/MySession.Custom.csproj" />
+  <Project Path="MySession.IntegrationTests/MySession.IntegrationTests.csproj" />
+</Solution>

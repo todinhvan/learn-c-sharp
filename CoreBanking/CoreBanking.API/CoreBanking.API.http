@@ -1,0 +1,6 @@
+@CoreBanking.API_HostAddress = http://localhost:5167
+
+GET {{CoreBanking.API_HostAddress}}/api/v1/core-banking/customers
+Accept: application/json
+
+###

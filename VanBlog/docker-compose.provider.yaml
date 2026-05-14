@@ -1,0 +1,20 @@
+name: "van-blog-provider"
+
+networks:
+  van-blog-nw:
+    driver: bridge
+
+volumes:
+  sqlserver-data:
+
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2025-latest
+    container_name: van-blog-sqlserver
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=DinhVan@123
+    ports:
+      - "1433:1433"
+    volumes:
+      - sqlserver-data:/var/opt/mssql
