@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="CoreConcept.AuthDemo/CoreConcept.CookieAuthDemo.csproj" Id="a9cc8a60-3b4a-4aea-a0fe-3faccf48dbb1" />
+  <Project Path="CoreConcept.JwtAuthDemo/CoreConcept.JwtAuthDemo.csproj" Id="900308c7-b4b7-44e6-ae49-817a62d1b6ce" />
+  <Project Path="CoreConcept.MiddlewareDemo/CoreConcept.MiddlewareDemo.csproj" />
+</Solution>

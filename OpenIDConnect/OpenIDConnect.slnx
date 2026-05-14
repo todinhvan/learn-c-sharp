@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="OpenIDConnect.Server/OpenIDConnect.Server.csproj" />
+  <Project Path="OpenIDConnect.WebClient/OpenIDConnect.WebClient.csproj" />
+</Solution>

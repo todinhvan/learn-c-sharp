@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="Authentication.Api/Authentication.Api.csproj" />
+  <Project Path="Authentication.Client/Authentication.Client.csproj" />
+  <Project Path="GHTK.Api/GHTK.Api.csproj" />
+  <Project Path="GHTK.Infrastructure/GHTK.Infrastructure.csproj" />
+  <Project Path="GHTK.Security/GHTK.Security.csproj" />
+</Solution>

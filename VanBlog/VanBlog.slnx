@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="src/VanBlog.Api/VanBlog.Api.csproj" Id="302388cb-9f11-458e-8878-fb52930f5713" />
+  <Project Path="src/VanBlog.Core/VanBlog.Core.csproj" Id="587e3d06-18d3-4068-bccb-780332d3684f" />
+  <Project Path="src/VanBlog.Infrastructure/VanBlog.Infrastructure.csproj" Id="729583cd-60d2-41a4-a062-b6d01b71ea92" />
+  <Project Path="src/VanBlog.WebApp/VanBlog.WebApp.csproj" Id="583e8e49-ce1e-4bc8-9256-cc041e2a094a" />
+</Solution>

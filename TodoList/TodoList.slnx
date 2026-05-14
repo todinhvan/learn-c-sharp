@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="TodoList.Core/TodoList.Core.csproj" />
+  <Project Path="TodoList.Infrastructure/TodoList.Infrastructure.csproj" />
+  <Project Path="TodoList.Presentation/TodoList.Presentation.csproj" />
+  <Project Path="TodoList.Tests/TodoList.Tests.csproj" />
+  <Project Path="TodoList.UseCases/TodoList.UseCases.csproj" />
+</Solution>

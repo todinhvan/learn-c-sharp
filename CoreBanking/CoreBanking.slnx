@@ -1,0 +1,9 @@
+<Solution>
+  <Project Path="CoreBanking.API/CoreBanking.API.csproj" />
+  <Project Path="CoreBanking.Aspire/CoreBanking.Aspire.AppHost/CoreBanking.Aspire.AppHost.csproj" />
+  <Project Path="CoreBanking.Aspire/CoreBanking.Aspire.ServiceDefaults/CoreBanking.Aspire.ServiceDefaults.csproj" />
+  <Project Path="CoreBanking.Infrastructure/CoreBanking.Infrastructure.csproj" />
+  <Project Path="CoreBanking.IntegrationTests/CoreBanking.IntegrationTests.csproj" Id="94628fea-6805-4e42-b758-a443f6d46288" />
+  <Project Path="CoreBanking.MigrationService/CoreBanking.MigrationService.csproj" />
+  <Project Path="CoreBanking.UnitTests/CoreBanking.UnitTests.csproj" Id="75e83fd5-7c9d-4444-8f2b-6fdadfdcb1e5" />
+</Solution>

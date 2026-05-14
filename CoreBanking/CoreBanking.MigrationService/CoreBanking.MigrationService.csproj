@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-CoreBanking.MigrationService-322b4dbf-d3c4-4d80-871a-9cc3ce19f5c4</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CoreBanking.Aspire\CoreBanking.Aspire.ServiceDefaults\CoreBanking.Aspire.ServiceDefaults.csproj" />
+    <ProjectReference Include="..\CoreBanking.Infrastructure\CoreBanking.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>
