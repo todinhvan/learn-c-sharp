@@ -1,0 +1,13 @@
+{
+  "issuer": "https://localhost:7006",
+  "authorization_endpoint": "https://localhost:7006/authorize",
+  "token_endpoint": "https://localhost:7006/oauth/token",
+  "userinfo_endpoint": "https://localhost:7006/userinfo",
+  "jwks_uri": "https://localhost:7006/.well-known/jwks.json",
+  "scopes_supported": [
+    "openid",
+    "profile",
+    "email",
+    "email_verified"
+  ]
+}

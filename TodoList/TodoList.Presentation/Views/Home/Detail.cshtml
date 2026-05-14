@@ -1,0 +1,35 @@
+@model TodoList.Presentation.Models.ItemViewModel
+
+@{
+    ViewData["Title"] = "Item Detail";
+}
+
+<h1>Todo Item Detail</h1>
+<hr />
+
+<div>
+    <dl class="row">
+        <dt class="col-sm-2">Title</dt>
+        <dd class="col-sm-10">@Model.Title</dd>
+
+        <dt class="col-sm-2">Description</dt>
+        <dd class="col-sm-10">@Model.Description</dd>
+
+        <dt class="col-sm-2">Status</dt>
+        <dd class="col-sm-10">
+            @if(Model.IsCompleted) {
+                <span class="badge bg-success">Completed</span>
+            } else {
+                <span class="badge bg-warning">Pending</span>
+            }
+        </dd>
+
+        <dt class="col-sm-2">Created At</dt>
+        <dd class="col-sm-10">@Model.CreatedAt.ToLocalTime().ToString("g")</dd>
+    </dl>
+</div>
+
+<div class="mt-3">
+    <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Edit</a>
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+</div>

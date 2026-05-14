@@ -1,0 +1,13 @@
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "ApiSettings": {
+    "BaseUrl": "https://api.example.com",
+    "ApiKey": "VAN_API_KEY",
+    "ApiSecret": "VAN_API_SECRET"
+  }
+}

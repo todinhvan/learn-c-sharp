@@ -1,0 +1,6 @@
+@CoreConcept.MiddlewareDemo_HostAddress = http://localhost:5219
+
+GET {{CoreConcept.MiddlewareDemo_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
